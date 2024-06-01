@@ -10,9 +10,10 @@ O aplicativo consiste em duas páginas:
 
 2. convert.php: Esta página recebe os dados do formulário enviado pelo usuário, realiza a conversão do arquivo de áudio usando a biblioteca FFmpeg e fornece o arquivo convertido para download. Ele também usa PHP para lidar com a validação e processamento do formulário.
 
-Requisitos
-PHP (>= 5.6)
-FFmpeg instalado no servidor
+## Requisitos
+
+- PHP (>= 5.6)
+- FFmpeg instalado no servidor
 
 1. Clone este repositório em seu servidor web.
 2. Certifique-se de que o servidor tenha o PHP e o FFmpeg instalados e configurados corretamente.
